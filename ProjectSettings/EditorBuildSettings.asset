@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scene4.unity
     guid: 7d80af8c388034c7caff5d3b3e363b2b
+  - enabled: 1
+    path: Assets/Scenes/TerrainDemoScene.unity
+    guid: 213c0b77405fd284ca3cd90f79d98c78
   m_configObjects: {}
