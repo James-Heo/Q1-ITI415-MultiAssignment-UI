@@ -10,4 +10,15 @@ public class Rotator : MonoBehaviour
         transform.Rotate(new Vector3(30, 60, 90) * Time.deltaTime);
     }
 
+    void OnTriggerEnter(Collider c)
+    {
+        if (c.gameObject.tag == "Player")
+        {
+            AudioSource source = GetComponent<AudioSource>();
+            source.Play();
+
+        }
+    }
+
 }
+

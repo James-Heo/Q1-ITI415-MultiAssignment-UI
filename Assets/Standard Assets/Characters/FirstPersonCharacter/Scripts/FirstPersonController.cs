@@ -276,16 +276,20 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (other.gameObject.CompareTag("Pick Up"))
             {
+                AudioSource source = GetComponent<AudioSource>();
+                source.Play();
+
                 other.gameObject.SetActive(false);
                 count = count + 1;
                 SetCountText();
+
             }
         }
 
         void SetCountText()
         {
             countText.text = "Count: " + count.ToString();
-            if (count >= 12)
+            if (count >= 10)
             {
                 winText.text = "You Win!";
             }
