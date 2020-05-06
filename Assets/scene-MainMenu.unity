@@ -1122,7 +1122,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Scene1 - Terrain
+  m_Text: Scene1 - Terrain (Playable)
 --- !u!222 &1540311727
 CanvasRenderer:
   m_ObjectHideFlags: 0
